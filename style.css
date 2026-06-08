@@ -5,9 +5,14 @@
 html {
     margin: auto;
 }
+
+.icon {
+    filter: invert(100%);
+}
+
 body {
     background-color: black;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     align-items: center;
     margin: 2vw;
@@ -16,7 +21,7 @@ body {
 .video-wrapper {
     width: 100%;
     margin: auto;
-    height: min(100vw, calc(100vh * 9 / 16));
+    height: min(100vw, calc(100dvh * 9 / 16));
 }
 
 .video {
